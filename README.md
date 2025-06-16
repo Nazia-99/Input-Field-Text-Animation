@@ -17,7 +17,8 @@ A simple and elegant floating label input animation built with pure HTML and CSS
 > Coming Soon (You can also upload this to GitHub Pages or CodePen)
 
 ## 📸 Screenshot
-[Input Field Animation](./input field text animation screenshot.png)
+![Input Field Animation](./input%20field%20text%20animation%20screenshot.png)
+
 ## 📺 YouTube Tutorial
 Watch the full video: [Input Field Animation Tutorial](https://youtube.com/yourvideo)
 
