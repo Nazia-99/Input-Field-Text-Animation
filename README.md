@@ -14,7 +14,7 @@ A simple and elegant floating label input animation built with pure HTML and CSS
 
 
 ## 🌐 Live Preview
-> Coming Soon (You can also upload this to GitHub Pages or CodePen)
+https://nazia-99.github.io/Input-Field-Text-Animation/
 
 ## 📸 Screenshot
 ![Input Field Animation](./input%20field%20text%20animation%20screenshot.png)
@@ -28,5 +28,5 @@ This project is open source and free to use under the [MIT License](LICENSE).
 ---
 
 ### 🙌 Follow & Subscribe
-**YouTube:** Code with Nazia] https://www.youtube.com/@codewithnazia
-**GitHub:** [@nazia-99] (https://github.com/yourusername)
+**YouTube:** [Code with Nazia] https://www.youtube.com/@codewithnazia
+**GitHub:** [@nazia-99] https://github.com/Nazia-99
