@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    font-family: 'poppins', sans-serif;
+}
+.inputbox{
+    width:300px;
+    position: relative;
+}
+.inputbox input{
+    padding: 20px;
+    width:100%;
+    font-size: 18px;
+    color:#DC1C75;
+    border: 2px solid #DC1C75;
+    outline:none;
+    border-radius: 5px;
+    background: transparent;
+}
+.inputbox span{
+    position: absolute;
+    font-size: 18px;
+    padding: 20px;
+    left:0;
+    color:#DC1C75;
+    text-transform: uppercase;
+    pointer-events: none;
+    transition: 0.3s ease;
+
+}
+.inputbox input:valid ~ span,
+.inputbox input:focus ~ span{
+    color:#DC1C75;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 14px;
+    padding: 0 20px;
+    background: #fff;
+    border-left:1px solid #F701C6 ;
+    border-right: 1px solid #F701C6 ;
+    letter-spacing: 3px;
+}
+.inputbox:nth-child(2) input:valid ~ span,
+.inputbox:nth-child(2) input:focus ~ span{
+    background: linear-gradient(135deg, #DC1C75, #F701C6);
+    color:#fff;
+    border-radius: 2px;
+}
+.submit-button{
+    width:300px;
+    position: relative;
+}
+.submit-button button{
+    width:100%;
+    position: relative;
+    padding: 20px;
+    color:#fff;
+    background: #DC1C75;
+    border:none;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 1;
+    overflow: hidden;
+}
+.submit-button button::before{
+    content:'';
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:-100%;
+    background: linear-gradient(135deg, #DC1C75, #F701C6);
+    transition: left 1s ease;
+    z-index: -1;
+    box-shadow: 0 0 10px rgba(220, 28, 117, 0.6);
+
+}
+.submit-button button:hover::before{
+    left:0;
+}
